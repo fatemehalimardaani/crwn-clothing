@@ -37,7 +37,6 @@ class SignIn extends React.Component{
                             Sign in with google
                         </CustomButton>
                     </div>
-
                 </form>
             </div>
         );
