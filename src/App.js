@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Switch, Route } from 'react-router-dom'
+import {Switch, Route , Redirect} from 'react-router-dom'
 import Homepage from './Pages/Homepage/Homepages'
 import ShopPage from './Pages/Shoppage/shop';
 import SignInSignUp from "./Pages/sign-in-sign-up/sing-in-sgin-up";
@@ -23,13 +23,10 @@ class App extends React.Component{
                             ...snapshot.data()
                     },()=>{
                         console.log(this.state)
-
                     })
                 })
-
             }
             setCurrentUser(userAuth)
-
         })
     }
     componentWillUnmount() {
@@ -42,15 +39,40 @@ class App extends React.Component{
                 <Switch>
                     <Route exact path='/' component={Homepage}/>
                     <Route  path='/shop' component={ShopPage}/>
-                    <Route  path='/signin' component={SignInSignUp}/>
+                    <Route  path='/signin' 
+                    
+                    render={()=>(
+                        this.props.currentUser ? (<Redirect to="/" />) : (
+                            <SignInSignUp/>
+                        )
+                    )}
+                    
+                    />
                 </Switch>
             </div>
         );
     }
 }
-const mapDispatchToProps=(dispatch)=>(
-    {
-        setCurrentUser:user=>dispatch(setCurrentUser(user))
-    }
-)
-export default connect(null,mapDispatchToProps)(App);
+
+const mapStateToProps=( {user} ) =>( {currentUser:user.currentUser} )
+
+    
+
+
+
+const mapDispatchToProps=(dispatch) => {
+    console.log(dispatch)
+    return(
+        {
+            setCurrentUser:user=>dispatch(setCurrentUser(user))
+        }
+    )
+    
+}
+
+console.log(mapDispatchToProps)   
+    
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps)(App);
