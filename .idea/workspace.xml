@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6f367a72-81ac-448b-9da4-02dc49b7076d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/sign-in/sign-in.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sign-in/sign-in.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/sign-in-sign-up/sing-in-sgin-up.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/sign-in-sign-up/sing-in-sgin-up.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/sign-in-sign-up/sing-in-sgin-up.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/sign-in-sign-up/sing-in-sgin-up.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +41,7 @@
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
@@ -89,6 +87,8 @@
       <workItem from="1578329451058" duration="587000" />
       <workItem from="1578332176295" duration="144000" />
       <workItem from="1578335870543" duration="391000" />
+      <workItem from="1578932891876" duration="1097000" />
+      <workItem from="1579032151368" duration="67000" />
     </task>
     <servers />
   </component>
