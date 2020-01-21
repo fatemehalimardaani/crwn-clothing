@@ -56,10 +56,6 @@ class App extends React.Component{
 
 const mapStateToProps=( {user} ) =>( {currentUser:user.currentUser} )
 
-    
-
-
-
 const mapDispatchToProps=(dispatch) => {
     console.log(dispatch)
     return(
@@ -69,9 +65,7 @@ const mapDispatchToProps=(dispatch) => {
     )
     
 }
-
 console.log(mapDispatchToProps)   
-    
 
 export default connect(
     mapStateToProps,
