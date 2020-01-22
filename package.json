@@ -1,5 +1,6 @@
 {
   "name": "crw-clothing",
+  "author": "Fatemeh.Alm",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
