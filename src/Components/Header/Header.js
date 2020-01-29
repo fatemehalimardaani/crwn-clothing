@@ -6,7 +6,8 @@ import CartIcon from './../cart-component/cartIcon-component';
 import CartDropdown from './../cart-component/cartDropdown-component'
 import {auth} from "../../firebase/firebase.utils";
 import {connect} from 'react-redux';
-
+import {selectCartHidden} from './../../redux/cart/cart.selector'
+import {selectCurrentUser} from './../../redux/user/user.selector'
 const Header=({currentUser,hidden})=>(
     <header className="header">
         <Link className="logo-container" to='/'  >
@@ -37,7 +38,7 @@ const Header=({currentUser,hidden})=>(
 );
 
 const mapStateToProps=(state)=>({
-    currentUser:state.user.currentUser,
-    hidden:state.cart.hidden
+    currentUser:selectCurrentUser(state),
+    hidden:selectCartHidden(state)
 })
 export default  connect(mapStateToProps)(Header);
