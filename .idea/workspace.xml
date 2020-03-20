@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f367a72-81ac-448b-9da4-02dc49b7076d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/cart-component/cartDropdown-component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/cart-component/cartDropdown-component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/cart-component/cartDropdown-component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/cart-component/cartDropdown-component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.selector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +96,10 @@
       <workItem from="1578932891876" duration="1097000" />
       <workItem from="1579032151368" duration="67000" />
       <workItem from="1580216382454" duration="5000" />
+      <workItem from="1580579301036" duration="362000" />
+      <workItem from="1580882611708" duration="1147000" />
+      <workItem from="1580902809774" duration="228000" />
+      <workItem from="1581019242159" duration="10000" />
     </task>
     <servers />
   </component>
