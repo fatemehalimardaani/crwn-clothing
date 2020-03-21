@@ -21,8 +21,23 @@
         }
     }
     .total{
-        font-size: 24px;
+        font-size: 30px;
         font-weight: bold;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+
+    button{
+        margin-left: auto;
+    }
+
+    .test-warning{
+        text-align: center;
+        margin-top: 40px;
+        font-size: 24px;
+        color: red;
+        margin-bottom: 40px;
+
     }
 
 }
