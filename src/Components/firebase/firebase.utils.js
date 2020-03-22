@@ -2,14 +2,14 @@ import firebase from "firebase";
 import 'firebase/firestore';
 import 'firebase/auth';
 const config={
-    apiKey: "AIzaSyDMtiF4eRPoYXqzR-uca4vGiivBrgeS2cE",
-    authDomain: "crown-byme.firebaseapp.com",
-    databaseURL: "https://crown-byme.firebaseio.com",
-    projectId: "crown-byme",
-    storageBucket: "crown-byme.appspot.com",
-    messagingSenderId: "742520190713",
-    appId: "1:742520190713:web:964288cc4f0b2eb657d428",
-    measurementId: "G-MP3HBH72EV"
+  apiKey: "AIzaSyBdd65kQ0GZgCcs7q_si-49fi5AHh5Vfug",
+  authDomain: "crwn-crwn-c9064.firebaseapp.com",
+  databaseURL: "https://crwn-crwn-c9064.firebaseio.com",
+  projectId: "crwn-crwn-c9064",
+  storageBucket: "crwn-crwn-c9064.appspot.com",
+  messagingSenderId: "764979844316",
+  appId: "1:764979844316:web:4a2dd3a8dc88c264cf1019",
+  measurementId: "G-2T1YTDH4QQ"
 };
 
 firebase.initializeApp(config);
@@ -18,7 +18,12 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
   
     const userRef = firestore.doc(`users/${userAuth.uid}`);
   
+    const collectionRef=firestore.collection('users')
+
     const snapShot = await userRef.get();
+    const collectionSnapShot=await collectionRef.get()
+
+    console.log(collectionSnapShot)
   
     if (!snapShot.exists) {
       const { displayName, email } = userAuth;
